@@ -121,6 +121,8 @@ View the full attendance log, sorted by most recent, with the option to delete i
 
 This project is available under the MIT License — feel free to use and modify it.
 
-## 🙋 Contact
-
-Built by Dipak. Feel free to open an issue or reach out with questions or suggestions.
+### 💬 Let's Connect
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khandagaledipak47@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dipakkhandagale/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dipakkhandagale.vercel.app/)
+<br/>
