@@ -15,22 +15,6 @@ No manual sign-ins, no ID cards — just look at the camera.
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Tech Stack](#️-tech-stack)
-- [Project Structure](#-project-structure)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Configuration](#️-configuration)
-- [Usage](#-usage)
-- [Database Schema](#️-database-schema)
-- [Known Limitations](#️-known-limitations)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Let's Connect](#-lets-connect)
-
 ## 🔎 Overview
 
 This project replaces manual or card-based attendance tracking with a lightweight, self-contained facial recognition pipeline. An admin registers users by capturing their face through a webcam, and from then on, attendance is marked automatically the moment a registered face is detected — timestamped and logged to a local SQLite database, no internet or external service required.
