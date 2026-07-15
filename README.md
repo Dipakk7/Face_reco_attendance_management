@@ -1,14 +1,47 @@
+<div align="center">
+
 # 📸 Face Recognition Attendance Management System
 
-A Streamlit-based attendance system that uses real-time facial recognition to register users and automatically log attendance — no manual sign-in required.
+**A real-time, face-recognition-powered attendance system built with Streamlit, OpenCV, and SQLite.**
+
+No manual sign-ins, no ID cards — just look at the camera.
+
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.41-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.10-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](#-license)
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [Project Structure](#-project-structure)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Configuration](#️-configuration)
+- [Usage](#-usage)
+- [Database Schema](#️-database-schema)
+- [Known Limitations](#️-known-limitations)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Let's Connect](#-lets-connect)
+
+## 🔎 Overview
+
+This project replaces manual or card-based attendance tracking with a lightweight, self-contained facial recognition pipeline. An admin registers users by capturing their face through a webcam, and from then on, attendance is marked automatically the moment a registered face is detected — timestamped and logged to a local SQLite database, no internet or external service required.
 
 ## ✨ Features
 
-- **Face-based attendance marking** — captures a live webcam frame, detects the face, and matches it against registered users using an LBPH (Local Binary Patterns Histograms) face recognizer
-- **Admin panel** — protected by login, lets an admin register new users (capture + save face) and manage (view/delete) existing users
-- **Attendance records** — view a running log of all attendance entries with timestamps, with the ability to delete individual records
-- **SQLite-backed storage** — user face images and attendance logs are persisted locally, no external database required
-- **Cached recognition pipeline** — face cascade classifier and attendance record queries are cached for faster page loads
+- 🎯 **Face-based attendance marking** — captures a live webcam frame, detects the face, and matches it against registered users using an LBPH (Local Binary Patterns Histograms) face recognizer
+- 🔐 **Admin panel** — protected by login, lets an admin register new users (capture + save face) and manage (view/delete) existing users
+- 🧾 **Attendance records** — view a running log of all attendance entries with timestamps, with the ability to delete individual records
+- 💾 **SQLite-backed storage** — user face images and attendance logs are persisted locally, no external database required
+- ⚡ **Cached recognition pipeline** — face cascade classifier and attendance record queries are cached for faster page loads
 
 ## 🛠️ Tech Stack
 
@@ -34,7 +67,7 @@ Face_reco_attendance_management/
 
 - Python 3.9+
 - A working webcam
-- Windows, macOS, or Linux (see [Configuration](#-configuration) note below)
+- Windows, macOS, or Linux (see [Configuration](#️-configuration) note below)
 
 ## 🚀 Installation
 
@@ -109,17 +142,21 @@ View the full attendance log, sorted by most recent, with the option to delete i
 - Admin credentials are stored in plaintext in the source code
 - Recognizer is retrained from scratch on every attendance check, which can slow down with a large user base
 
-## 🗺️ Roadmap
+## 🤝 Contributing
 
-- [ ] Environment-based configuration (`.env`) instead of hardcoded paths/credentials
-- [ ] Password hashing for admin login
-- [ ] Duplicate attendance prevention (e.g. one mark per person per day)
-- [ ] Persist/cache the trained recognizer instead of retraining on each check
-- [ ] Export attendance records to CSV/Excel
+Contributions are welcome! If you'd like to improve this project:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
 ## 📄 License
 
 This project is available under the MIT License — feel free to use and modify it.
+
+---
 
 ### 💬 Let's Connect
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khandagaledipak47@gmail.com)
