@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📸 Face Recognition Attendance Management System
+#  Face Recognition Attendance Management System
 
 **A real-time, face-recognition-powered attendance system built with Streamlit, OpenCV, and SQLite.**
 
