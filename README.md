@@ -2,7 +2,7 @@
 
 #  Face Recognition Attendance Management System
 
-**A real-time, face-recognition-powered attendance system built with Streamlit, OpenCV, and SQLite.**
+**A real-time, face-recognition-powered attendance system built with Streamlit, OpenCV, and SQLite**
 
 No manual sign-ins, no ID cards — just look at the camera.
 
