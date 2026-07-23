@@ -4,7 +4,7 @@
 
 **A real-time, face-recognition-powered attendance system built with Streamlit, OpenCV, and SQLite.**
 
-No manual sign-ins, no ID cards — just look at the camera.
+No manual sign-ins, no ID cards — just look at the camera
 
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.41-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
